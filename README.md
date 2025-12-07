@@ -1,9 +1,11 @@
 
 🚀 Financial Budgeting & Forecasting with LSTM
 A Machine Learning Proof of Concept for Predicting Monthly Net Cash Flow
+
 📌 Overview
 This repository contains the full implementation, datasets, models, notebooks, and results for a financial forecasting proof of concept. The goal of this project was to determine whether machine learning—specifically Long Short-Term Memory (LSTM) networks—can accurately predict a household’s next-month net cash flow using historical expenditure and income data.
 This work was completed as part of the NYU Applied Project Capstone, demonstrating how advanced neural networks can support adaptive budgeting tools and AI-driven financial planning applications.
+
 🎯 Key Features
 Complete data engineering pipeline using U.S. Consumer Expenditure Survey (CES) microdata
 Preprocessing, transformation, and normalization of raw financial datasets
@@ -13,10 +15,12 @@ Visualization of training curves, residuals, and actual vs. predicted forecasts
 Saved models and scalers for reproducibility
 Clean, professional repository structure
 Git LFS support for large datasets and model files
+
 🧠 Problem Statement
 Traditional budgeting tools summarize past spending but cannot predict future cash flow.
 This project asks:
 Can machine learning models accurately forecast monthly net cash flow using historical income and expenditure patterns?
+
 📘 Research Approach
 Data Engineering
 Transform CES microdata from quarterly → monthly
@@ -35,6 +39,7 @@ Documentation & Reproducibility
 Organized datasets and outputs
 Published models + code
 Fully documented methodology
+
 📊 Results Summary
 Model	MAE ($)	RMSE ($)	R²
 Linear Regression	123.87	198.44	0.99994
@@ -44,6 +49,7 @@ LSTM	68.42	109.77	0.99998
 ✔ Forecasts followed real data closely
 ✔ Residuals were stable and unbiased
 ✔ Strong evidence that machine learning can support financial forecasting tools
+
 📂 Repository Structure
 financial-budgeting-forecasting/
 │
@@ -53,6 +59,7 @@ financial-budgeting-forecasting/
 ├── results/                  # PNG charts and graphs
 ├── notebooks/                # Jupyter notebooks (EDA, modeling)
 └── README.md
+
 🔍 Notebooks Included
 EDA.ipynb
 Exploratory data analysis, summary statistics, visualization.
@@ -60,6 +67,7 @@ Model_Training.ipynb
 Full implementation of Linear Regression, FFNN, and LSTM models.
 Evaluation.ipynb
 Generates charts, metrics, comparison tables, and predictions.
+
 📈 Visual Outputs
 (Have these ready in /results; you can embed them later if you want)
 LSTM prediction vs actual
@@ -68,6 +76,7 @@ FFNN loss curve
 Model comparison MAE
 Residual analysis
 Training curve visualizations
+
 🛠️ Technologies Used
 Python
 NumPy
@@ -76,6 +85,7 @@ TensorFlow / Keras
 Scikit-Learn
 Matplotlib / Seaborn
 Git & Git LFS
+
 🧪 How to Run This Project
 1. Clone the repo
 git clone https://github.com/YOUR_USERNAME/financial-budgeting-forecasting.git
@@ -84,18 +94,21 @@ pip install -r requirements.txt
 (If you want, I can generate this file for you)
 3. Run the notebooks
 Open Jupyter or Colab and run the files inside /notebooks.
+
 📁 Datasets and Models
 All datasets and model files are stored in:
 /data_raw
 /data_processed
 /models
 Git LFS is enabled to support large files.
+
 👤 Author
 Vishwa Shah
 Master’s Student, NYU SPS
 Financial Modeling | Machine Learning | Data Engineering
 LinkedIn: https://www.linkedin.com/in/vishwadipeshshah
 Email: vishwashah.nyu@gmail.com
+
 ⭐ Future Work
 Integrating a financial assistant chatbot using LLMs
 Testing Liquid Neural Networks (LNNs) for adaptive forecasting
